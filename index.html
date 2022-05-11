@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express File Upload With Multer</title>
+</head>
+
+<body>
+    <form action="http://localhost:5000/" method="post" enctype="multipart/form-data">
+
+        <!-- files -->
+        <input type="file" name="avatar" id="avatar" />
+        <input type="file" name="doc" id="doc" />
+        <!-- <input type="file" name="gallery" id="gallery" multiple> -->
+
+        <!-- form data  -->
+        <!-- <input type="text" name="name" id="name"> -->
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
